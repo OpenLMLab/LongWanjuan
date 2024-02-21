@@ -22,7 +22,7 @@ To better elucidate these dimensions, we provide examples in the following table
 
 ## Metric
 Inspired by the three dimensions mentioned above, we propose the quantitative metrics to assess the quality of long text, 
-including both statistical and model-based ones, where higher values correlate with more pronounced characteristics of the corresponding dimension.
+including both statistical and model-based ones, where higher values correlate with more pronounced characteristics of the corresponding dimension
 (code is coming soon).
 
 ## LongWanjuan
@@ -31,11 +31,13 @@ The pipeline for constructing our dataset is illustrated in the following figure
 
 ![Pipeline](assets/pipeline.png)
 
-An overview of the dataset statistics in the English and Chinese part of LongWanjuan is as follows.
+[//]: # (An overview of the dataset statistics in the English and Chinese part of LongWanjuan is as follows.)
 
-![en_stat](assets/en_stat.png)
+[//]: # ()
+[//]: # (![en_stat]&#40;assets/en_stat.png&#41;)
 
-![cn_stat](assets/cn_stat.png)
+[//]: # ()
+[//]: # (![cn_stat]&#40;assets/cn_stat.png&#41;)
 
 Distribution of token and document counts across different lengths is as follows. 
 In LongWanjuan, over 99.9% of the data exceed the truncation length in pre-training.
