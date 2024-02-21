@@ -42,6 +42,6 @@ The pipeline for constructing our dataset is illustrated in the following figure
 Distribution of token and document counts across different lengths is as follows. 
 In LongWanjuan, over 99.9% of the data exceed the truncation length in pre-training.
 
-![length](assets/length.png)
+<img src="assets/length.png" width="500px">
 
 LongWanjuan is available at [https://opendatalab.com/OpenLMLab/LongWanjuan](https://opendatalab.com/OpenLMLab/LongWanjuan) under CC BY 4.0 (uploading...).
