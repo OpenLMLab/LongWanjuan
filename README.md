@@ -1,6 +1,6 @@
 # LongWanjuan
 This repository contains the code and data for the paper
-**_LongWanjuan: Towards Systematic Measurement for Long Text Quality_**.
+[**LongWanjuan: Towards Systematic Measurement for Long Text Quality**.](https://arxiv.org/abs/2402.13583)
 
 ## Measurement
 To systematically assess the quality of long texts, we adhere to linguistic fundamentals and evaluate them through three dimensions: 
@@ -31,13 +31,13 @@ The pipeline for constructing our dataset is illustrated in the following figure
 
 ![Pipeline](assets/pipeline.png)
 
-[//]: # (An overview of the dataset statistics in the English and Chinese part of LongWanjuan is as follows.)
+An overview of the dataset statistics in the English and Chinese part of LongWanjuan is as follows.
 
-[//]: # ()
-[//]: # (![en_stat]&#40;assets/en_stat.png&#41;)
 
-[//]: # ()
-[//]: # (![cn_stat]&#40;assets/cn_stat.png&#41;)
+![en_stat](assets/en_stat.png)
+
+
+![cn_stat](assets/cn_stat.png)
 
 Distribution of token and document counts across different lengths is as follows. 
 In LongWanjuan, over 99.9% of the data exceed the truncation length in pre-training.
