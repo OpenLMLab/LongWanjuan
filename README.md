@@ -23,7 +23,7 @@ To better elucidate these dimensions, we provide examples in the following table
 ## Metric
 Inspired by the three dimensions mentioned above, we propose the quantitative metrics to assess the quality of long text, 
 including both statistical and model-based ones, where higher values correlate with more pronounced characteristics of the corresponding dimension.
-The code for calculating these metric is in [coherence](coherence), [cohesion](cohesion) and [complexity](complexity) (code is coming soon).
+The code for calculating these metric is in [coherence](coherence), [cohesion](cohesion) and [complexity](complexity).
 
 ## LongWanjuan
 Based on the analysis and metrics discussed previously, we introduce LongWanjuan, a bilingual long-text dataset with over 160B tokens. 
@@ -33,9 +33,9 @@ The pipeline for constructing our dataset is illustrated in the following figure
 
 An overview of the dataset statistics in the English and Chinese part of LongWanjuan is as follows.
 
+![domain](assets/domain.png)
 
 ![en_stat](assets/en_stat.png)
-
 
 ![cn_stat](assets/cn_stat.png)
 
