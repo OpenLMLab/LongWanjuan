@@ -46,4 +46,4 @@ In LongWanjuan, over 99.9% of the data exceed the truncation length in pre-train
     <img src="assets/length.png" width="500px">
 </div>
 
-LongWanjuan is available at [https://opendatalab.com/OpenLMLab/LongWanjuan](https://opendatalab.com/OpenLMLab/LongWanjuan) under CC BY 4.0 (uploading...).
+LongWanjuan is available at [https://opendatalab.com/OpenLMLab/LongWanjuan](https://opendatalab.com/OpenLMLab/LongWanjuan) under CC BY 4.0.
