@@ -139,7 +139,7 @@ with torch.no_grad():
                     'comp_rate': comp_rate, 'dedu_rate': dedu_rate, 
                     'len_token_list': len_token_list, 'len_token_set': len_token_set, 
                     'acc_wi': float(acc_wi), 'acc_wo': float(acc_wo), 'acc_delta': float(acc_wi - acc_wo), 'acc_ratio': float((acc_wi - acc_wo) / (acc_wi + 1e-5)), 
-                    'ppl_wi': float(ppl_wi), 'ppl_wo': float(ppl_wo), 'ppl_delta': float(ppl_wo - ppl_wi), 'acc_ratio': float((ppl_wo - ppl_wi) / (ppl_wo + 1e-5)), 
+                    'ppl_wi': float(ppl_wi), 'ppl_wo': float(ppl_wo), 'ppl_delta': float(ppl_wo - ppl_wi), 'ppl_ratio': float((ppl_wo - ppl_wi) / (ppl_wo + 1e-5)), 
                     }
                 
             except:
