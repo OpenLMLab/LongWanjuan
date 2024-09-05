@@ -151,7 +151,7 @@ with torch.no_grad():
                     'comp_rate': comp_rate, 'dedu_rate': dedu_rate, 
                     'len_token_list': len_token_list, 'len_token_set': len_token_set, 
                     'acc_wi': -1, 'acc_wo': -1, 'acc_delta': -1, 'acc_ratio': -1, 
-                    'ppl_wi': -1, 'ppl_wo': -1, 'ppl_delta': -1, 'acc_ratio': -1, 
+                    'ppl_wi': -1, 'ppl_wo': -1, 'ppl_delta': -1, 'ppl_ratio': -1, 
                     }
 
             torch.cuda.empty_cache()
